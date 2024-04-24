@@ -42,7 +42,7 @@ int main() {
             if (isPerfectSquare(factPlusOne)) {
                 ll m = sqrt(factPlusOne);
                 if (m > b && n > b) {
-                    solutions.push_back(make_tuple(a, n, m));
+                    solutions.pb(make_tuple(a, n, m));
                 }
             }
         }
